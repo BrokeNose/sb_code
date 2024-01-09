@@ -4,11 +4,11 @@ pipeline {
         maven 'my_maven'
     }
     environment {
-        GITNAME = 'brokennose'          # 나의 깃 허브 계정
-        GITMAIL = 'ths8976@naver.com'   # 나의 깃 허브 이메일
+        GITNAME = 'brokennose'
+        GITMAIL = 'ths8976@naver.com'
         GITWEBADD = 'https://github.com/SonDaewon/sb_code.git'
         GITSSHADD = 'git@github.com:SonDaewon/sb_code.git'
-        GITCREDENTIAL = 'git_cre'       # 아까 젠킨스 credential에서 생성한것.
+        GITCREDENTIAL = 'git_cre'
     }
     
     stages {
